@@ -1,7 +1,3 @@
-#! /usr/bin/python
-# Written by Dan Mandle http://dan.mandle.me September 2012
-# License: GPL 2.0
- 
 import os
 from gps import *
 from time import *
@@ -69,7 +65,7 @@ if __name__ == '__main__':
       for beacon in returnedList:
 	parameter = beacon + ',' + str(gpsd.fix.latitude) + ',' + str(gpsd.fix.longitude)
 	print parameter
-	url = "http://172.17.19.24:8082/Silla_Server/op/beacon?data=" + parameter
+	url = "<Your HTTP Server>" + parameter
 	response = urllib2.urlopen(url) 
       time.sleep(1) #set to whatever
  
