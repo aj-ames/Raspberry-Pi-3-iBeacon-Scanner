@@ -23,4 +23,8 @@ Also, The program sends the measured data to your web server.
 
 You should replace url with [Your HTTP Server] with your web server address.
 
-This program refers to the original source at https://github.com/switchdoclabs/iBeacon-Scanner-/blob/master/testblescan.py.
+*****
+This program refers to the original source at
+**BLE Scanner** : https://github.com/switchdoclabs/iBeacon-Scanner-/blob/master/testblescan.py
+**GPSD** :http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/
+
