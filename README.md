@@ -17,7 +17,7 @@ Also, The program sends the measured data to your web server.
   print parameter
   url = [Your HTTP Server] + parameter
   response = urllib2.urlopen(url)
-  time.sleep(1) #set to whatever
+  time.sleep(1)
 </pre>
 
 
