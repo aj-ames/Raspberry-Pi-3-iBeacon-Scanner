@@ -25,6 +25,6 @@ You should replace url with [Your HTTP Server] with your web server address.
 
 *****
 This program refers to the original source at<br>
-**BLE Scanner** : https://github.com/switchdoclabs/iBeacon-Scanner-/blob/master/testblescan.py
+**BLE Scanner** : https://github.com/switchdoclabs/iBeacon-Scanner-/blob/master/testblescan.py<br>
 **GPSD** :http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/
 
